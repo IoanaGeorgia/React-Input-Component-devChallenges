@@ -1,0 +1,11 @@
+body {
+  padding: 5px 30px;
+}
+li {
+  margin-top: 60px;
+  list-style-type: '✔️';
+  margin-left: 20px;
+}
+div {
+  margin-top: 17px;
+}
