@@ -72,7 +72,7 @@ const InputComponent = (props) => {
     'border-radius': '10px',
     'padding-top': '10px',
     'padding-left': '10px',
-    'padding-bottom': '12px',
+    'paddingBottom': '12px',
     'font-size': '14px',
     'font-weight': '500',
 
@@ -90,11 +90,12 @@ const InputComponent = (props) => {
   }
 
   const helperTextError = {
-    color: 'red'
+    color: '#D32F2F'
   }
 
   const helperTextDefault = {
-    'font-size': '14px'
+    'font-size': '12px',
+    'padding':'4px'
   }
 
 
