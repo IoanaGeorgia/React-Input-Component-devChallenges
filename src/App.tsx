@@ -22,6 +22,8 @@ export default function App() {
   }
   return (
     <div>
+
+
       <h1><span style={react}>React</span> Input Component Guideline</h1>
       <h3 style={subtitle}>coded by Pascu Ioana</h3>
       <li>
@@ -39,6 +41,15 @@ export default function App() {
         <InputComponent disabled />
       </li>
 
+      <li>
+        <div style={inputInfo}>Start Icon: {'<InputComponent  startIcon="face" />'} </div>
+        <InputComponent startIcon='face' />
+      </li>
+
+      <li>
+        <div style={inputInfo}>End Icon: {'<InputComponent endIcon="account_box" />'} </div>
+        <InputComponent endIcon='account_box' />
+      </li>
 
       <li>
         <div style={inputInfo}>HelperText added: {'<InputComponent helperText="Explain why you like cats" />'} </div>
